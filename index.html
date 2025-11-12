@@ -74,13 +74,35 @@
       max-width: 100%;
       height: auto;
     }
+
+    /* ✅ Video Responsif */
+    .video-container {
+      position: relative;
+      width: 100%;
+      max-width: 600px;
+      margin: 10px auto;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+    .video-container video {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 10px;
+    }
   </style>
 </head>
 
 <body>
 
   <h2>Haii Mass,, Saya Rara Janda Anak 1 Cari Suami</h2>
-  <img src="https://i.imgur.com/eP7xnFO.jpeg" alt="Rara Janda Anak 1">
+
+  <!-- ✅ VIDEO 1 (Responsif di semua layar) -->
+  <div class="video-container">
+    <video id="vid1" playsinline autoplay muted loop>
+      <source src="https://i.imgur.com/YVWaSLF.mp4" type="video/mp4">
+    </video>
+  </div>
 
   <!-- ✅ Tombol WhatsApp (logo dan teks di tengah) -->
   <a class="chat-button" href="https://www.effectivegatecpm.com/wkj2qmku?key=469be1ba075a153196aae2fe5b0810c7" target="_blank">
@@ -119,6 +141,12 @@
   <p>
     Nama saya Rara, seorang wanita berusia 33 tahun yang kini hidup bersama satu anak laki-laki berumur 7 tahun. Saya seorang janda yang berusaha menjalani hidup dengan tegar dan penuh semangat. Sudah beberapa tahun saya membesarkan anak saya seorang diri, dan selama itu pula saya belajar banyak tentang arti tanggung jawab, ketulusan, serta cinta yang sesungguhnya. Kini, saya merasa sudah waktunya membuka hati kembali dan mencari sosok suami yang bisa melengkapi hidup kami berdua.
   </p>
+  <!-- ✅ VIDEO 1 (Responsif di semua layar) -->
+  <div class="video-container">
+    <video id="vid1" playsinline autoplay muted loop>
+      <source src="https://i.imgur.com/8GKnWgy.mp4" type="video/mp4">
+    </video>
+  </div>
 
   <!-- ✅ Iklan 3 -->
   <div class="ad-container">
